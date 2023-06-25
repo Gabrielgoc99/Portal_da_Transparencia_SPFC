@@ -1,0 +1,403 @@
+body {
+    font-family: 'Courier New', Courier, monospace, Times, serif;
+	color: #fff;
+	margin: 0;
+	background: linear-gradient(90deg, red, white, black);
+	background-size: 300% 300%;
+	width: 100%;
+	animation: colors 15s alternate-reverse infinite;
+	border: 10px solid #000;
+  	box-sizing: border-box;
+}
+header {	
+	height: 100%;
+}
+h1 {
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 64px;
+	margin-bottom: 0;
+	color: #000;
+	font-size: xx-large;
+	text-shadow: 2px 2px 4px rgba(148, 0, 0, 0.678);
+}
+h2 {
+   font-size: 16px;
+   font-weight: 300;
+   text-transform: uppercase;
+   color: #000000;
+   text-shadow: 2px 2px 4px #ffffff;
+}
+h3 {
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
+	text-shadow: 2px 2px 4px #ffffff;
+    padding-bottom: 10px;
+}
+p {
+	margin-bottom: 30px;
+	line-height: 30px;
+	color: #000;
+	font-size: xx-large;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+img {
+	border: 0;
+}
+
+a:link, a:active,a:visited {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+main {
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: center;
+}
+footer {
+	color: #fff;
+	position: relative;
+	height: 65px;
+	left: 0;
+	bottom: 0;
+	font-size: 14px;
+	background-color: #00000098;
+	width: 100%;
+	padding: 15px;
+	align-items: center;
+}
+section {
+	
+	height: auto;
+	width: auto;
+	padding: 20px;
+	margin-top: 20px;
+	
+  	
+  	
+	
+  }
+  .card {
+	width: 1000px;
+	height: 1000px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 20px;
+	text-align: center;
+	justify-content: center;
+	
+  }
+  
+  .card img {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+	margin-bottom: 10px;
+  }
+  
+  .card p {
+	font-size: 24px;
+	color: #000000;
+	text-shadow: 2px 2px 4px #ffffff;
+  }
+ .card2 {
+  display: flex;
+  width: 1200px;
+  height: 200px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card2 img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card2-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.card2-content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+.card2-content p {
+  font-size: 14px;
+  color: #000000;
+  text-shadow: 2px 2px 4px #ffffff;
+} 
+
+.social {
+	float: right;
+}
+.button {
+	background-color: red;
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	color: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 300px;
+	white-space: normal;
+}
+nav {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+ul {
+    font-size: 12.5px;
+    line-height: 20px;
+}
+.darkness {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #faf8f8e3;
+    background-image: url(../images/SPFC_Banner.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0;
+	position: relative;
+	animation: fadeSlide 5s ease-in-out forwards;
+	max-width: 1920px;
+	min-width: 320px;
+	min-height: 1080;
+	max-height: 160px;
+}
+.container {
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 320px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	margin-bottom: 10px;
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+  
+.social-links a {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 5px 10px;
+	background-color: #ccc;
+	color: #000;
+	text-decoration: none;
+}
+  
+.social-links a:hover {
+	background-color: #ff0000;
+	color: #fff;
+}
+.box {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 500px;
+	background-color: rgb(5, 5, 5);
+	opacity: 0;
+	position: relative;
+	animation: fadeSlide 5s ease-in-out forwards;
+ }
+@keyframes colors {
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
+@keyframes fadeSlide {
+	0% {
+	  opacity: 0;
+	  transform: translateX(-100px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateX(0);
+}
+}
+.dotted-line {
+	border-top: 2px dotted #ffffff;
+	margin: 20px 0;
+  }
+.tec-links{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.tec-links a {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 5px 10px;
+	background-color: #ccc;
+	color: #000;
+	text-decoration: none;
+}
+.tec-links a:hover {
+	background-color: #ff0000;
+	color: #000000;
+}
+.tlcontainer {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+	max-width: 50%;
+	max-height: 10%;
+}
+
+/* The circles on the timeline */
+.tlcontainer::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #090f33;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.tlleft {
+    left: 0;
+}
+
+/* Place the container to the right */
+.tlright {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.tlleft::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.tlright::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.tlright::after {
+    left: -16px;
+}
+
+/* The actual content */
+.tlcontent {
+    padding: 20px 30px;
+    background-color:red;
+    position: relative;
+    border-radius: 6px;
+	color: #000;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container2 {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+
+  h1 {
+	text-align: center;
+  }
+
+  .contact-form {
+	margin-top: 20px;
+  }
+
+  .form-group {
+	margin-bottom: 20px;
+  }
+
+  .form-group label {
+	display: block;
+	font-weight: bold;
+	color: #000000;
+  }
+
+  .form-group input,
+  .form-group textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+
+  .form-group textarea {
+	height: 150px;
+	color: #000000;
+  }
+
+  .form-group button {
+	background-color: red;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+
+  .form-group button:hover {
+	background-color: rgb(70, 2, 2);
+  }
+  .dashed-line {
+	border: none;
+	border-top: 2px dashed #000000;
+  }
