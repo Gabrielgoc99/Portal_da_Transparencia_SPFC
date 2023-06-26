@@ -17,22 +17,25 @@ h1 {
 	font-weight: 400;
 	line-height: 64px;
 	margin-bottom: 0;
-	color: #000;
-	font-size: xx-large;
+	color: #000000;
+	font-size: xxx-large;
 	text-shadow: 2px 2px 4px rgba(148, 0, 0, 0.678);
 }
 h2 {
    font-size: 16px;
-   font-weight: 300;
+   font-weight: 350;
    text-transform: uppercase;
    color: #000000;
    text-shadow: 2px 2px 4px #ffffff;
+   font-weight: bold;
 }
 h3 {
     font-size: 22px;
     border-bottom: 1px solid #ddd;
 	text-shadow: 2px 2px 4px #ffffff;
     padding-bottom: 10px;
+	color: #000000;
+	font-weight: bold;
 }
 p {
 	margin-bottom: 30px;
@@ -40,6 +43,7 @@ p {
 	color: #000;
 	font-size: xx-large;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	font-weight: bold;
 }
 img {
 	border: 0;
@@ -73,16 +77,11 @@ footer {
 	padding: 15px;
 	align-items: center;
 }
-section {
-	
+section {	
 	height: auto;
 	width: auto;
 	padding: 20px;
-	margin-top: 20px;
-	
-  	
-  	
-	
+	margin-top: 20px;	
   }
   .card {
 	width: 1000px;
@@ -147,16 +146,15 @@ section {
 }
 .button {
 	background-color: red;
+	color: #ffffff;
+	border-color: white;
+	border-radius: 4px;
 	padding-top: 6px;
 	padding-right: 12px;
 	padding-bottom: 6px;
-	padding-left: 12px;
-	color: #fff;
+	padding-left: 12px;	
 	border-radius: 4px;
 	text-transform: uppercase;
-	text-decoration: none;
-	width: 300px;
-	white-space: normal;
 }
 nav {
 	text-align: center;
@@ -387,9 +385,9 @@ li {
 
   .form-group button {
 	background-color: red;
-	color: #fff;
+	color: #ffffff;
 	padding: 10px 20px;
-	border: none;
+	border: #000;
 	border-radius: 4px;
 	cursor: pointer;
   }
